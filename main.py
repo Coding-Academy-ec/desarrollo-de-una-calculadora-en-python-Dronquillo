@@ -9,7 +9,7 @@ def multiplicar(a, b):
     return a * b
 def dividir(a, b):
     # aqui se realiza la division de dos numeros
-    if b==0
+    if b==0:
         return a 
     else:
         return a / b
