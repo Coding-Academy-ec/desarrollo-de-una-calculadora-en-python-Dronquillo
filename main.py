@@ -9,10 +9,10 @@ def multiplicar(a, b):
     return a * b
 def dividir(a, b):
     # aqui se realiza la division de dos numeros
-    if b == 0:
-        return a 
-    else:
-        return a / b
+    try:
+       return a / b
+    except ZeroDivisionError:
+        return "Division entre cero "
         
 def main():
     num1 = float(input("Ingrese el primer número: "))
